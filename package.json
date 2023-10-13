@@ -1,0 +1,35 @@
+{
+    "name": "cse341_project2_portfolio",
+    "version": "1.0.0",
+    "description": "This is an independent project",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "Denis 'SokanRed' Poussard",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongodb": "^6.1.0",
+        "mongoose": "^7.6.1",
+        "nodemon": "^3.0.1",
+        "swagger-ui-express": "^5.0.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.7.5",
+        "@typescript-eslint/parser": "^6.7.5",
+        "eslint": "^8.51.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "eslint-plugin-react": "^7.33.2",
+        "prettier": "^3.0.3"
+    }
+}
